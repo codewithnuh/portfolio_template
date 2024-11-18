@@ -34,7 +34,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="container">{children}</div>
+          <div className="container max-w-[1400px] w-[90%] px-4  py-2 bg-primary ">
+            {children}
+          </div>
         </ThemeProvider>
       </body>
     </html>
